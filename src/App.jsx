@@ -6,7 +6,7 @@ import Shop from './Components/Shop'
 
 export default function App() {
   return (
-    <div>
+    <div >
       <Header />
       <Home />
       <Shop />

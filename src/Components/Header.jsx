@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
-        <div className='header'>
+        <div className='header' >
             <div className='logo'>
                 <img src={logo} alt="" />
                 <h2>Sneaker Shop</h2>

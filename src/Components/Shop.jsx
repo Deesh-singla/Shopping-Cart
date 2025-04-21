@@ -2,7 +2,7 @@ import React from 'react'
 import { mainSneakers, otherSneakers } from "../data.js"
 export default function Shop() {
     return (
-        <div className='shop'>
+        <div className='shop' >
             <h1>Our best collection</h1>
             <div className='sneakers'>
                 {mainSneakers.map((data, index) => (
