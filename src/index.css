@@ -1,0 +1,125 @@
+ /* header*/
+ .header {
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .logo,
+ .links {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .cart {
+     margin-right: 100px;
+     font-size: 30px;
+ }
+
+ .links {
+     gap: 30px;
+     margin-right: 100px;
+ }
+
+ .nav-link {
+     text-decoration: none;
+     color: black;
+     cursor: default;
+     font-size: larger;
+ }
+
+ /* home Center  */
+
+ .main {
+     margin: 20px 10px;
+     border: 2px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .description {
+     padding: 50px;
+     font-size: larger;
+ }
+
+ .description h1 {
+     line-height: 1.5;
+     font-size: 40px;
+ }
+
+ .description h1 span {
+     text-decoration: underline;
+     text-decoration-color: #f8604f;
+ }
+
+ .description p {
+     color: #999;
+ }
+
+ .description button {
+     padding: 20px;
+     font-size: large;
+     background-color: #f8604f;
+     border-radius: 5px;
+ }
+
+ .sneaker {
+     /* height: 300px; */
+     margin: 30px;
+     margin-right: 20px;
+     object-fit: cover;
+     cursor: pointer;
+ }
+
+ .sneaker div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .sneaker hr {
+     border: 2px solid black;
+ }
+
+ .sneaker p {
+     font-size: larger;
+     margin-right: 15px;
+     margin-left: 15px;
+     font-weight: 600;
+ }
+
+ /* footer */
+ .footer {
+     background-color: #f8604f;
+     color: white;
+     text-align: center;
+     font-size: 20px;
+     padding: 10px;
+ }
+
+ /* shop */
+ .shop h1 {
+     text-align: center;
+     font-size: 50px;
+ }
+
+ .sneakers {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+
+ .shop-sneaker img {
+     height: 300px;
+     padding: 0px 50px;
+     object-fit: cover;
+ }
+
+ .price {
+     color: #f8604f;
+ }
