@@ -26,7 +26,6 @@
  .nav-link {
      text-decoration: none;
      color: black;
-     cursor: default;
      font-size: larger;
  }
 
@@ -67,9 +66,6 @@
  }
 
  .sneaker {
-     /* height: 300px; */
-     margin: 30px;
-     margin-right: 20px;
      object-fit: cover;
      cursor: pointer;
  }
@@ -111,15 +107,116 @@
      justify-content: center;
      align-items: center;
      flex-wrap: wrap;
+     gap: 30px;
  }
 
 
  .shop-sneaker img {
-     height: 300px;
+     height: 280px;
      padding: 0px 50px;
      object-fit: cover;
  }
 
+ .sneaker-link {
+     text-decoration: none;
+     color: inherit;
+ }
+
  .price {
      color: #f8604f;
- } 
+ }
+
+ .btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5px;
+
+ }
+
+ .btn p {
+     font-size: 25px;
+     color: #f8604f;
+     cursor: pointer;
+ }
+
+ /* sneaker-description */
+
+ .ind-sneaker {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: larger;
+     padding: 30px;
+     padding-bottom: 80px;
+     gap: 30px;
+ }
+
+ .sneaker-img {
+     border: 3px solid black;
+     height: 420px;
+     width: 700px;
+ }
+
+ .sneaker-img img {
+     object-fit: cover;
+     height: 420px;
+     width: 700px;
+ }
+
+ .ind-sneaker .heading {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .ind-sneaker p {
+     color: #999;
+ }
+
+ .sneaker-description {
+     padding: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     gap: 30px;
+ }
+
+ .sneaker-description h1 {
+     margin: 0px;
+ }
+
+ .quantity {
+     width: 150px;
+     height: 50px;
+     border: 2px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 30px;
+     width: 120px;
+ }
+
+ .quantity-btn {
+     color: #f8604f;
+ }
+
+ .ind-sneaker-footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ .add-to-cart {
+     background-color: #f8604f;
+     color: white;
+     border: 2px solid black;
+     width: 150px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: default;
+ }
