@@ -1,3 +1,10 @@
+ .app {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+     width: 100%;
+ }
+
  /* header*/
  .header {
      padding: 0px 20px;
@@ -148,7 +155,6 @@
      justify-content: center;
      font-size: larger;
      padding: 30px;
-     padding-bottom: 80px;
      gap: 30px;
  }
 
@@ -219,4 +225,145 @@
      align-items: center;
      justify-content: center;
      cursor: default;
+ }
+
+ .shopping-cart {
+     flex: 1;
+     padding: 40px;
+     font-family: Arial, sans-serif;
+     max-width: 1000px;
+     margin: auto;
+     width: 100%;
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+
+ }
+
+ thead {
+     background-color: #e1503c;
+     color: white;
+ }
+
+ .heading-row td {
+     font-weight: bold;
+     padding: 15px;
+     text-transform: capitalize;
+     text-align: center;
+ }
+
+ .cart-sneaker td {
+     padding: 20px;
+     vertical-align: middle;
+     text-align: center;
+     font-size: large;
+ }
+
+ .cart-sneaker img {
+     width: 120px;
+     height: auto;
+     border-radius: 10px;
+ }
+
+ .total-price {
+     text-align: right;
+     padding: 20px 0;
+ }
+
+ .total-price h2 {
+     font-size: 22px;
+     color: #333;
+ }
+
+ button {
+     padding: 12px 25px;
+     background-color: #f8604f;
+     color: white;
+     border: none;
+     border-radius: 6px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: #e1503c;
+ }
+
+ .quantity-cell {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100px;
+ }
+
+ .quantity-box {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 6px;
+ }
+
+ .quantity-buttons {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .quantity-buttons button {
+     background-color: #f8604f;
+     color: white;
+     border: none;
+     padding: 2px 6px;
+     font-size: 12px;
+     cursor: pointer;
+     line-height: 1;
+     margin: 1px 0;
+     border-radius: 4px;
+     transition: background-color 0.3s ease;
+ }
+
+ .quantity-buttons button:hover {
+     background-color: #d44b3c;
+ }
+
+ table td {
+     vertical-align: middle;
+     text-align: center;
+ }
+
+ .cart-product {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .cart-product-image {
+     height: 100px;
+     width: 100px;
+ }
+
+ .cart-product img {
+     object-fit: cover;
+     border-radius: 5px;
+ }
+
+ .cart-product div:last-child {
+     width: 100px;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     padding-bottom: 10px;
+ }
+
+ .cart-product p {
+     margin: 0;
+     font-size: 14px;
+ }
+
+ .cart-product p:last-child {
+     color: orangered;
+     cursor: pointer;
+     font-size: 13px;
+     margin-top: 5px;
  }
